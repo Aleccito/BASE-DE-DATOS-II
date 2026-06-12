@@ -1,0 +1,59 @@
+CREATE TABLE Roles (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    descripcion VARCHAR(100) NOT NULL UNIQUE,
+    activo BINARY(1) NOT NULL
+);
+
+CREATE TABLE Usuarios (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    apellido VARCHAR(100) NOT NULL UNIQUE,
+    pass VARCHAR(255) NOT NULL UNIQUE,
+    id_rol INT NOT NULL,
+    activo BINARY(1) NOT NULL,
+    correo VARCHAR(50) NOT NULL UNIQUE,
+    FOREIGN KEY (id_rol) REFERENCES Roles(id)
+);
+
+CREATE TABLE Servicios (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name_service VARCHAR(100) NOT NULL UNIQUE,
+    activo BINARY(1) NOT NULL,
+    Precio FLOAT NOT NULL
+);
+
+CREATE TABLE Formas_de_Pago (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    form_pay VARCHAR(100) NOT NULL UNIQUE,
+    activo BINARY(1) NOT NULL
+);
+
+CREATE TABLE Operaciones (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    descripcion VARCHAR(100) NOT NULL UNIQUE,
+    soli_password BINARY(1) NOT NULL
+);
+
+CREATE TABLE Bitacora (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id_usuario INT NOT NULL UNIQUE,
+    exitoso BINARY(1) NOT NULL,
+    id_operacion INT NOT NULL UNIQUE,
+    fecha DATE NOT NULL,
+    hora TIME NOT NULL UNIQUE,
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id),
+    FOREIGN KEY (id_operacion) REFERENCES Operaciones(id)
+);
+
+CREATE TABLE Pagos (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id_usuario INT NOT NULL,
+    id_servicio INT NOT NULL,
+    fecha_pago DATE NOT NULL,
+    pendiente BINARY(1) NOT NULL,
+    id_fop INT NOT NULL,
+    num_ref VARCHAR(100) NOT NULL UNIQUE,
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id),
+    FOREIGN KEY (id_servicio) REFERENCES Servicios(id),
+    FOREIGN KEY (id_fop) REFERENCES Formas_de_Pago(id)
+);
