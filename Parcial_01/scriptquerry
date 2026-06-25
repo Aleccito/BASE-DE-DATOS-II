@@ -1,3 +1,4 @@
+USE Parcial_1_db; 
 CREATE TABLE Roles (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     descripcion VARCHAR(100) NOT NULL UNIQUE,
@@ -57,3 +58,132 @@ CREATE TABLE Pagos (
     FOREIGN KEY (id_servicio) REFERENCES Servicios(id),
     FOREIGN KEY (id_fop) REFERENCES Formas_de_Pago(id)
 );
+
+INSERT INTO Roles (id, descripcion, activo) VALUES
+(1,  'Administrador',        1),
+(2,  'Cliente',              1),
+(3,  'Soporte Tecnico',      1),
+(4,  'Supervisor',           1),
+(5,  'Contador',             1),
+(6,  'Vendedor',             1),
+(7,  'Auditor',              1),
+(8,  'Gerente',              1),
+(9,  'Recepcionista',        0),
+(10, 'Practicante',          0);
+
+INSERT INTO Operaciones (id, descripcion, soli_password) VALUES
+(1,  'Inicio de sesion',          1),
+(2,  'Cierre de sesion',          0),
+(3,  'Registro de pago',          1),
+(4,  'Consulta de servicios',     0),
+(5,  'Cambio de contrasena',      1),
+(6,  'Creacion de usuario',       1),
+(7,  'Desactivacion de usuario',  1),
+(8,  'Actualizacion de perfil',   0),
+(9,  'Anulacion de pago',         1),
+(10, 'Exportacion de reportes',   1);
+
+INSERT INTO Servicios (id, name_service, activo, Precio) VALUES
+(1,  'Internet Residencial 100MB', 1, 29.99),
+(2,  'Internet Residencial 300MB', 1, 44.99),
+(3,  'Internet Empresarial 500MB', 1, 89.99),
+(4,  'Television por Cable',       1, 24.50),
+(5,  'Telefonia Fija',             1, 12.75),
+(6,  'Streaming Premium',          1, 9.99),
+(7,  'Hosting Web Basico',         1, 15.00),
+(8,  'Soporte Tecnico Premium',    1, 35.00),
+(9,  'IP Estatica',                1, 18.50),
+(10, 'Internet Satelital',         0, 75.00);
+
+INSERT INTO Formas_de_Pago (id, form_pay, activo) VALUES
+(1,  'Efectivo',                 1),
+(2,  'Tarjeta de Credito',       1),
+(3,  'Tarjeta de Debito',        1),
+(4,  'Transferencia Bancaria',   1),
+(5,  'Yappy',                    1),
+(6,  'ACH',                      1),
+(7,  'PayPal',                   1),
+(8,  'Cheque',                   1),
+(9,  'Criptomoneda',             0),
+(10, 'Nequi',                    0);
+
+INSERT INTO Usuarios (id, nombre, apellido, pass, id_rol, activo, correo) VALUES
+(1,  'Carlos',  'Mendoza',   '$2b$12$LJ3m4N5o6P7q8R9s0T1u2eXa', 1, 1, 'carlos.mendoza@example.com'),
+(2,  'Maria',   'Gonzalez',  '$2b$12$Aa1Bb2Cc3Dd4Ee5Ff6Gg7hKm', 2, 1, 'maria.gonzalez@example.com'),
+(3,  'Jose',    'Rodriguez', '$2b$12$Hh8Ii9Jj0Kk1Ll2Mm3Nn4pQr', 2, 1, 'jose.rodriguez@example.com'),
+(4,  'Ana',     'Castillo',  '$2b$12$Oo5Pp6Qq7Rr8Ss9Tt0Uu1vWx', 3, 1, 'ana.castillo@example.com'),
+(5,  'Luis',    'Herrera',   '$2b$12$Vv2Ww3Xx4Yy5Zz6Aa7Bb8cDe', 2, 1, 'luis.herrera@example.com'),
+(6,  'Carmen',  'Vasquez',   '$2b$12$Cc9Dd0Ee1Ff2Gg3Hh4Ii5jKl', 4, 1, 'carmen.vasquez@example.com'),
+(7,  'Roberto', 'Pineda',    '$2b$12$Jj6Kk7Ll8Mm9Nn0Oo1Pp2qRs', 5, 1, 'roberto.pineda@example.com'),
+(8,  'Sofia',   'Morales',   '$2b$12$Qq3Rr4Ss5Tt6Uu7Vv8Ww9xYz', 6, 1, 'sofia.morales@example.com'),
+(9,  'Diego',   'Santos',    '$2b$12$Xx0Yy1Zz2Aa3Bb4Cc5Dd6eFg', 2, 0, 'diego.santos@example.com'),
+(10, 'Patricia','Jimenez',   '$2b$12$Ee7Ff8Gg9Hh0Ii1Jj2Kk3lMn', 8, 1, 'patricia.jimenez@example.com');
+
+INSERT INTO Bitacora (id, id_usuario, exitoso, id_operacion, fecha, hora) VALUES
+(1,  1,  1, 1,  '2026-06-01', '08:15:00'),
+(2,  2,  1, 3,  '2026-06-01', '09:42:00'),
+(3,  3,  0, 5,  '2026-06-02', '10:05:00'),
+(4,  4,  1, 4,  '2026-06-02', '11:30:00'),
+(5,  5,  1, 8,  '2026-06-03', '13:20:00'),
+(6,  6,  1, 6,  '2026-06-04', '14:55:00'),
+(7,  7,  1, 10, '2026-06-05', '15:10:00'),
+(8,  8,  0, 9,  '2026-06-08', '16:45:00'),
+(9,  9,  1, 2,  '2026-06-09', '17:30:00'),
+(10, 10, 1, 7,  '2026-06-10', '18:05:00');
+
+INSERT INTO Pagos (id, id_usuario, id_servicio, fecha_pago, pendiente, id_fop, num_ref) VALUES
+(1,  2,  1,  '2026-06-01', 0, 2, 'REF-2026-0001'),
+(2,  3,  2,  '2026-06-01', 0, 5, 'REF-2026-0002'),
+(3,  5,  4,  '2026-06-02', 0, 1, 'REF-2026-0003'),
+(4,  2,  6,  '2026-06-02', 1, 2, 'REF-2026-0004'),
+(5,  8,  3,  '2026-06-03', 0, 4, 'REF-2026-0005'),
+(6,  9,  5,  '2026-06-04', 1, 3, 'REF-2026-0006'),
+(7,  3,  7,  '2026-06-05', 0, 6, 'REF-2026-0007'),
+(8,  10, 8,  '2026-06-08', 0, 4, 'REF-2026-0008'),
+(9,  5,  9,  '2026-06-09', 1, 7, 'REF-2026-0009'),
+(10, 7,  2,  '2026-06-10', 0, 8, 'REF-2026-0010');
+
+
+CREATE VIEW PagosDetView AS
+SELECT
+    p.id AS id_pago,
+    u.id AS id_usuario,
+    CONCAT(u.nombre, ' ', u.apellido) AS cliente,
+    r.descripcion AS rol_usuario,
+    s.name_service AS servicio,
+    s.Precio AS precio_servicio,
+    fp.form_pay AS forma_pago,
+    p.fecha_pago,
+    p.pendiente,
+    p.num_ref
+FROM Pagos p
+JOIN Usuarios u ON p.id_usuario = u.id
+JOIN Servicios s ON p.id_servicio = s.id
+JOIN Formas_de_Pago fp ON p.id_fop = fp.id
+JOIN Roles r ON u.id_rol = r.id;
+
+CREATE VIEW NoPassView AS
+SELECT
+    u.id,
+    u.nombre,
+    u.apellido,
+    u.correo,
+    r.descripcion AS rol,
+    u.activo
+FROM Usuarios u
+JOIN Roles r ON u.id_rol = r.id;
+
+CREATE VIEW LogView AS
+SELECT
+    b.id AS id_bitacora,
+    u.id AS id_usuario,
+    CONCAT(u.nombre, ' ', u.apellido) AS usuario,
+    u.activo AS usuario_activo,
+    o.descripcion AS operacion,
+    o.soli_password AS requiere_password,
+    b.exitoso,
+    b.fecha,
+    b.hora
+FROM Bitacora b
+JOIN Usuarios u ON b.id_usuario = u.id
+JOIN Operaciones o ON b.id_operacion = o.id;
