@@ -15,8 +15,8 @@
 
 | Nombre | Rol |
 |---|---|
-| Adrian Castillo | Desarrollador |
-| Alec Biruet | Desarrollador |
+| Adrian Castillo | Estudiante |
+| Alec Biruet | Estudiante |
 
 ---
 
