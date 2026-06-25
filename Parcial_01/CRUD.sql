@@ -1,0 +1,20 @@
+-- CREATE: Inserción de un nuevo usuario en el sistema
+INSERT INTO Usuarios (id, nombre, apellido, correo, pass, id_rol, activo )VALUES ( 101,'Juan','Pérez','juan.perez@email.com','$2b$12$EjemploHashBcrypt',2,1);
+
+-- READ: Consulta filtrada de usuarios activos con rol Cliente
+SELECT u.id, u.nombre, u.apellido, u.correo, r.descripcion AS rol
+FROM Usuarios u
+JOIN Roles r ON u.id_rol = r.id
+WHERE u.activo = 1
+AND r.descripcion = 'Cliente';
+
+-- UPDATE: Actualización controlada del correo de un usuario activo
+UPDATE Usuarios
+SET correo = 'juan.nuevo@email.com'
+WHERE id = 101
+AND activo = 1;
+
+-- DELETE (Lógico): Desactivación de un usuario sin eliminar su historial
+UPDATE Usuarios
+SET activo = 0
+WHERE id = 101;
