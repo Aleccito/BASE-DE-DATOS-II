@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-18T23:22:20.519697",
+  "total_registros": 50,
+  "campos_cifrados": [
+    "nombre",
+    "email",
+    "telefono",
+    "direccion",
+    "tarjeta_credito",
+    "salario"
+  ],
+  "columnas": [
+    "id",
+    "nombre",
+    "email",
+    "telefono",
+    "direccion",
+    "tarjeta_credito",
+    "salario",
+    "fecha_registro",
+    "pais",
+    "activo",
+    "edad",
+    "codigo_postal",
+    "antiguedad_dias",
+    "segmento",
+    "datos_completos",
+    "email_hash"
+  ],
+  "segmentos": {
+    "Premium": 26,
+    "Estándar": 16,
+    "VIP": 7,
+    "Básico": 1
+  }
+}

@@ -1,0 +1,51 @@
+id,nombre,email,telefono,direccion,tarjeta_credito,salario,fecha_registro,pais,activo,edad,codigo_postal
+1,Andrés Alonso Almaraz,juliamedrano@example.net,(266)108-1378,"Callejón Tlaxcala 114 420, Nueva Argelia, HGO 13049",213131951313192,28126.62,2021-08-11,Francia,True,28.0,15144
+2,Germán Oswaldo Nieto,fmiramontes@example.net,1-126-150-1679x31406,"Calle Campeche 742 Edif. 270 , Depto. 727, San Camila los bajos, COAH 38883-0364",5142906926778800,22278.18,2024-05-08,Maldivas,True,999.0,47073
+3,Helena Valdivia,oosorio@example.org,(133)676-3453,"Peatonal Sur Osorio 246 Edif. 934 , Depto. 137, Vieja Ghana, YUC 12216-0770",4467287005507452621,102147.33,2021-10-07,Angola,True,,15256
+4,Rufino Zacarías Mireles Santana,micaela30@example.org,+48(9)9279725211,"Viaducto Norte Abrego 233 386, Vieja San Marino, MOR 38305",6011472209569594,37167.43,2022-08-03,Rwanda,True,-1.0,10961
+5,Lic. Araceli Salinas,reynaldovalles@example.org,1-660-915-2010,"Callejón Bangladesh 645 Edif. 973 , Depto. 820, San Genaro los bajos, CHIH 94639-9529",4396130950063411,73896.25,2022-04-05,Brunei Darussalam,True,999.0,10249
+6,Bianca Mariana Longoria Partida,wnaranjo@example.com,1-626-583-7685x189,"Callejón San Luis Potosí 032 077, San Andrea los bajos, GRO 95913-1418",4068884877342731,18305.41,2025-10-26,Swazilandia,True,19.0,14427-8593
+7,Renato Cavazos,aalejandro@example.org,1-230-152-8995x637,"Diagonal Durango 928 Edif. 797 , Depto. 164, Nueva Angola, AGS 34627-7056",4392675605270,108146.3,2024-05-01,Panamá,True,999.0,36776-2628
+8,Sr. Santiago Ponce,posadamarisol@example.net,(634)655-1255x155,"Corredor Filipinas 207 Edif. 539 , Depto. 651, San Gustavo los altos, CAMP 79050",6507602974776443,61208.3,2021-10-26,Pakistán,True,999.0,04938
+9,Raúl Bruno Holguín Guerrero,velasquezcitlali@example.org,(298)618-2862,"Prolongación Mali 691 Interior 107, Nueva Eritrea, YUC 04013-6527",38792521481208,16575.84,2022-01-01,Finlandia,True,53.0,16002-1802
+10,Sergio Arellano,cristobalozuna@example.com,+10(0)4034950140,"Pasaje Vanuatu 318 Edif. 476 , Depto. 459, San Enrique de la Montaña, CHIS 98503-2531",4103233675825686,55503.38,2025-06-05,Guinea Bissau,False,999.0,19673
+11,Victoria Cordero Valles,tcaldera@example.com,232-993-8952x1862,"Continuación Munguía 188 Interior 346, San Silvano de la Montaña, CAMP 43293-8057",4842147702790059261,111975.86,2024-05-22,Egipto,True,41.0,72277
+12,Dr. Diego Soto,adan94@example.com,958-138-5943,"Retorno Sur Santillán 837 066, San Ofelia los bajos, CHIH 98651",4373021888554415695,89544.7,2023-05-07,Jordania,True,,17916
+13,Iván Gurule Salcedo,soledad61@example.com,850.802.4378x4697,"Continuación Australia 242 845, San Noelia los altos, COL 50051-3279",3547959246576277,28285.15,2023-12-01,Mongolia,False,999.0,22393
+14,Horacio Antonio Cantú Rolón,sergiosalinas@example.org,328.949.1740,"Viaducto Colunga 549 Interior 477, Nueva Letonia, MICH 63599",4621401856836680,58499.29,2025-02-06,Tuvalu,True,-1.0,24285-5928
+15,Úrsula Luna Rosas,juan-carlosnaranjo@example.org,272.968.8261x17793,"Circunvalación Kenya 516 856, Vieja Chad, NAY 34250-9864",4194226096365084,30621.12,2025-08-06,Saint Kitts y Nevis,False,999.0,33092
+16,Isabel Rubio,villalobosabigail@example.net,+35(3)0892616866,"Circunvalación Soria 671 Interior 105, San Alonso los bajos, QRO 09900",6011333754651551,53752.05,2023-03-17,Bulgaria,True,33.0,07997-8150
+17,Enrique Tejada Santacruz,ssolorzano@example.org,(472)679-6635x5316,"Boulevard Norte Maya 671 491, Nueva Estados Unidos de América, DGO 73123",3588564574865373,39023.36,2021-09-09,Guatemala,True,999.0,83229
+18,Martín Jaime,npuga@example.org,248-372-3945x957,"Calzada Federación de Rusia 626 Edif. 456 , Depto. 951, San Wendolin los bajos, PUE 19157",3543018590254793,102808.88,2026-04-09,Colombia,False,-1.0,23209
+19,Srita. Zoé Gallegos,zepedasalma@example.com,(781)751-4303,"Andador Jalisco 342 Edif. 702 , Depto. 355, San Hernán los altos, NL 94008-0842",4506656968947929,82155.13,2026-04-05,Japón,True,-1.0,60630-5119
+20,María Indira Riojas,irma04@example.org,+37(1)1774743151,"Retorno Irlanda 483 Interior 570, Nueva Marruecos, SIN 25167",060483854430,91334.53,2024-09-20,Sri Lanka,False,-1.0,95330
+21,Eva Aranda,sofia00@example.net,(390)859-4808x42685,"Boulevard Coahuila de Zaragoza 352 Interior 288, Vieja Jordania, TLAX 95228",4946110181301694,63987.47,2022-11-17,Suriname,False,45.0,26522
+22,Srita. Dulce Valadez,abril81@example.org,(001)710-8380x651,"Circuito Barbados 432 Interior 661, San Francisca de la Montaña, BC 93016",30385042306265,25236.82,2021-10-06,Mauricio,False,72.0,42933-9577
+23,Daniel Quintero Enríquez,esther29@example.com,(551)525-5747,"Cerrada España 236 617, Vieja Portugal, TAMPS 35363",4484095050277653,96919.67,2025-07-10,Zambia,False,,51940
+24,Alicia Amanda Magaña Murillo,rubensanches@example.org,(447)112-9789,"Diagonal Papua Nueva Guinea 920 Interior 853, Vieja República Centroafricana, AGS 77322-0743",180008597044408,77737.0,2021-11-05,China,True,,17605-2227
+25,Lilia Murillo,alberto59@example.org,(815)039-8240x0886,"Ampliación Niger 629 Edif. 967 , Depto. 605, San María Cristina de la Montaña, CHIS 63827",3535366738017220,51191.31,2025-07-09,Marruecos,True,,68582
+26,Ramón Marcos Ceja Sierra,casaresesmeralda@example.org,(551)806-3930x982,"Periférico Valenzuela 092 Edif. 756 , Depto. 881, San Evelio los altos, SON 36043",6537455154618503,116599.67,2021-10-17,Uzbekistán,True,54.0,14072
+27,Elena Nieto Guevara,padillaelias@example.com,463-873-0600,"Boulevard México 839 362, San Mario los bajos, SLP 22112-8687",639080159861,32130.94,2022-04-30,Polonia,True,61.0,27053-6058
+28,Laura Alonso,wilfridomatos@example.net,1-837-728-4004x6470,"Callejón Norte Arguello 568 Interior 723, Nueva Bahrein, CHIH 80878",4990803948814315,74855.7,2021-09-14,Chipre,True,-1.0,61127
+29,Sr. Pedro Palacios,sserrano@example.com,199.556.5160x2716,"Circuito Zacatecas 786 Interior 434, San Gustavo de la Montaña, TLAX 95039",2505411564098379,96186.47,2025-12-07,Gabón,True,40.0,39205
+30,Barbara Patricia Sandoval,roberto67@example.net,1-853-818-3926,"Callejón Norte Orozco 910 Edif. 096 , Depto. 846, San Iván de la Montaña, NL 61542",30309846620762,74289.75,2021-06-20,China,False,999.0,49747-0381
+31,Silvano Israel Valadez,kayala@example.com,539.481.0672,"Pasaje Lituania 713 Edif. 420 , Depto. 877, San Nayeli de la Montaña, VER 42504-2861",4568646637936,19004.73,2022-02-27,Mauricio,True,999.0,93678-8199
+32,Gloria Wendolin Escalante,auroramontano@example.net,849.397.4938x0957,"Corredor Norte Soto 277 576, San Oswaldo de la Montaña, YUC 03570-5693",4182847802636,119754.02,2023-11-12,Australia,True,,13723
+33,Eloy Medina,kharo@example.net,1-213-304-7817x33180,"Peatonal Guanajuato 924 Edif. 233 , Depto. 850, Nueva Mozambique, CAMP 47546-8488",6514925290709991,35384.88,2025-11-05,Francia,True,-1.0,68859
+34,Homero Homero Ayala Puente,ernestoozuna@example.net,(902)376-4264x41813,"Continuación Aranda 896 Interior 957, Vieja Jordania, BC 17077",4803392258132689913,37178.21,2026-05-03,Zimbabwe,True,,27841
+35,Daniela Ana Luisa Beltrán Mojica,florencia83@example.com,1-358-859-6143x4013,"Retorno Norte Vélez 478 Interior 017, Vieja Comoras, MICH 27397-3038",6011547696988017,113351.04,2023-01-02,Ecuador,True,,78426
+36,Lucía Colunga Alcaraz,ordonezcristobal@example.org,1-959-688-9880x28976,"Prolongación Sudáfrica 345 678, Nueva Pakistán, Q. ROO 41151-3668",4348030496138462,85124.35,2024-05-20,Chipre,True,21.0,86364-7114
+37,María Cristina Echeverría Alva,toromargarita@example.org,(508)369-2134x2057,"Periférico Seychelles 498 Interior 429, Nueva Liberia, GTO 48250-4976",372223314236074,113629.85,2025-06-13,Zambia,True,-1.0,84536-4872
+38,Sr. Abelardo Osorio,erael@example.net,(560)847-4611x1790,"Pasaje Amador 112 Edif. 104 , Depto. 608, San Helena los altos, SIN 38336",180020314866930,84814.55,2023-03-25,Vietman,True,-1.0,09185-2045
+39,Jaqueline Gallegos Monroy,adalberto54@example.org,(503)247-8020x241,"Privada Nayarit 887 Interior 753, San Natalia los altos, BCS 61017",3581125097754127,14178.19,2023-12-25,Burundi,False,74.0,75531
+40,Germán Jos Arce Ballesteros,helenaquiroz@example.net,00880149462,"Diagonal República Democrática del Congo 972 673, San Rosa de la Montaña, CHIS 63190-6541",3591839030222871,112733.09,2021-10-03,Grecia,True,20.0,76975
+41,Rodrigo Jacinto Báez,chapajose-eduardo@example.net,+34(1)9183815655,"Peatonal Nayarit 395 215, San Dulce María de la Montaña, OAX 88887-1166",588634849578,90614.4,2026-05-04,Micronesia,False,,64201-9426
+42,Aurora Sara Luna,bernalroberto@example.org,047-921-2992,"Calle Burundi 237 Edif. 848 , Depto. 996, Vieja República de Macedonia del Norte, Q. ROO 12541",342422044129388,48454.99,2024-07-21,Mali,True,-1.0,71447-4718
+43,Nelly Rivera Salcedo,elsa15@example.com,(868)570-8129,"Diagonal Sur Sarabia 058 359, San Aldo de la Montaña, PUE 18951",6542304902736535,113593.74,2024-12-12,Lituania,True,18.0,93745
+44,Dulce Alcántar,ncardona@example.com,1-126-014-5280,"Continuación Grijalva 462 Interior 771, Vieja Islas Salomón, TAMPS 48085",3531576415136986,98291.25,2023-01-03,Mali,True,26.0,08052-4445
+45,Israel Genaro Nevárez Quintanilla,carlaayala@example.net,1-190-204-8040,"Cerrada Terán 199 Edif. 777 , Depto. 568, San Gloria los bajos, JAL 29121",3526752557052649,39842.81,2023-06-17,Lesotho,False,38.0,53336-2130
+46,Natividad Mercedes Lira de León,vmenchaca@example.com,874.018.2484,"Calle Sierra Leona 470 Edif. 004 , Depto. 057, Vieja República Centroafricana, CHIH 48330-9725",180000121588745,77825.29,2023-05-04,República Centroafricana,True,,51624
+47,Ana Leiva,ocolon@example.org,(904)362-0035x58083,"Calle China 016 994, San Carmen de la Montaña, YUC 27649",6564144483078136,40451.02,2022-02-25,Burundi,True,,05840-6304
+48,Nicolás Eduardo de Jesús,vicenteesparza@example.net,719.048.2833,"Ampliación Malasia 893 Interior 851, Nueva República Dominicana, Q. ROO 87905",30132927090253,60829.06,2022-06-22,Camerún,True,-1.0,34437
+49,Amanda Martha Lerma,karinaolivarez@example.com,(165)252-1597x4180,"Cerrada Timor-Leste 119 Edif. 172 , Depto. 154, Vieja Ecuador, HGO 45362",4994075997528,67362.34,2023-12-03,Fiji,True,999.0,01999-9081
+50,Dr. Eloy Caldera,magdalena12@example.net,1-345-098-3654x94228,"Pasaje Covarrubias 411 Edif. 285 , Depto. 959, Vieja Gabón, MICH 36838",3512082304761722,22970.4,2024-04-25,Perú,True,999.0,89388

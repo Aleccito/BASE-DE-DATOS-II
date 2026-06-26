@@ -1,0 +1,21 @@
+2026-06-18 18:28:07 | INFO | \U0001f510 CifradoManager inicializado correctamente
+2026-06-18 18:28:07 | INFO | EXTRACT: 50 registros extraídos
+2026-06-18 18:28:07 | INFO | TRANSFORM: 50 registros limpios
+2026-06-18 18:28:07 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:07 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:07 | INFO | LOAD: 50 registros guardados en C:\Users\alexa\Downloads\Proyecto\output\clientes_cifrados.csv
+2026-06-18 18:28:07 | INFO | PIPELINE COMPLETADO en 0.12s | 50 registros
+2026-06-18 18:28:25 | INFO | \U0001f510 CifradoManager inicializado correctamente
+2026-06-18 18:28:25 | INFO | EXTRACT: 50 registros extraídos
+2026-06-18 18:28:25 | INFO | TRANSFORM: 50 registros limpios
+2026-06-18 18:28:25 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:25 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:25 | INFO | LOAD: 50 registros guardados en C:\Users\alexa\Downloads\Proyecto\output\clientes_cifrados.csv
+2026-06-18 18:28:25 | INFO | PIPELINE COMPLETADO en 0.11s | 50 registros
+2026-06-18 18:28:37 | INFO | \U0001f510 CifradoManager inicializado correctamente
+2026-06-18 18:28:37 | INFO | EXTRACT: 50 registros extraídos
+2026-06-18 18:28:37 | INFO | TRANSFORM: 50 registros limpios
+2026-06-18 18:28:37 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:37 | INFO | ENCRYPT: Cifrado aplicado a campos sensibles
+2026-06-18 18:28:37 | INFO | LOAD: 50 registros guardados en C:\Users\alexa\Downloads\Proyecto\output\clientes_cifrados.csv
+2026-06-18 18:28:37 | INFO | PIPELINE COMPLETADO en 0.11s | 50 registros
