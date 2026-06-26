@@ -13,7 +13,7 @@ Es el proceso estándar para mover y procesar datos entre sistemas.
 
 ---
 
-## 🏗 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 etl_project/
@@ -35,7 +35,7 @@ etl_project/
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 ```bash
 # Instalar dependencias
